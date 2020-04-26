@@ -46,7 +46,6 @@ using std::min;
 
 #include <cstring>
 #include <cassert>
-#include <linux/types.h>
 #include "src/libpar2internal.h"
 #include "src/libpar2.h" //for u64 like types
 #include <stdint.h>

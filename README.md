@@ -2,7 +2,7 @@
 
 This repo is a libified version of par2cmdline. It tracks that source line for line, but instead of the commandline application, you obtain a shared library, ready for easy inclusion in your own applications.
 
-At this time, `./compile.sh` produces a `.so` on Unix platforms. On the TODO is a similar file for Windows. Pull requests for macOS welcome!
+At this time, `./compile.sh` produces a `.so` on Unix platforms. `./wincompile.sh` creates a Windows DLL using the mingw compiler (`sudo apt install mingw-w64`). Pull requests for macOS compiling instructions and binaries welcome!
 
 ## Motivation
 
